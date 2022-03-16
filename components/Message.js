@@ -2,11 +2,7 @@ import React from 'react'
 import { useMoralis } from 'react-moralis'
 import Avatar from './Avatar'
 import ReactTimeAgo from 'timeago-react'
-import de from 'javascript-time-ago/locale/de'
-import TimeAgo from 'javascript-time-ago'
 
-TimeAgo.addDefaultLocale(de)
-TimeAgo.setDefaultLocale(de)
 
 function Message({ message }) {
 
